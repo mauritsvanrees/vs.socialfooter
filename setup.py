@@ -3,7 +3,7 @@ import os
 
 version = '1.0'
 
-setup(name='pareto.socialfooter',
+setup(name='vs.socialfooter',
       version=version,
       description="An installable theme for Plone 3",
       long_description=open("README.txt").read() + "\n" +
@@ -20,7 +20,7 @@ setup(name='pareto.socialfooter',
       url='http://svn.plone.org/svn/collective/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['pareto'],
+      namespace_packages=['vs'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

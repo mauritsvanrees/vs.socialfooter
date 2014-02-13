@@ -1,2 +1,2 @@
-recursive-include pareto *
+recursive-include vs *
 global-exclude *pyc *pyo
